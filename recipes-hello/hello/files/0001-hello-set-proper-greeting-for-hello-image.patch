@@ -1,0 +1,26 @@
+From e1aa00e5d2c5e5c626476a1872ad5e1caa791213 Mon Sep 17 00:00:00 2001
+From: Oleksandr Ocheretnyi <oleksandr.ocheretnyi@globallogic.com>
+Date: Sun, 26 Sep 2021 13:43:02 -0400
+Subject: [PATCH] hello: set proper greeting for hello image
+
+Signed-off-by: Oleksandr Ocheretnyi <oleksandr.ocheretnyi@globallogic.com>
+---
+ hello/main.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello/main.c b/hello/main.c
+index 5df5a89..555070d 100644
+--- a/hello/main.c
++++ b/hello/main.c
+@@ -24,7 +24,7 @@
+ 
+ int main(int argc, char **argv)
+ {
+-    printf("Hello, world!\n");
++    printf("Greetings from hello image!\n");
+ 
+     return 0;
+ }
+-- 
+2.17.1
+
