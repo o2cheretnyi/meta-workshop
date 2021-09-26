@@ -6,7 +6,7 @@ SECTION = "images"
 IMAGE_INSTALL = "packagegroup-core-boot"
 
 # Add our desired packages
-IMAGE_INSTALL += "psplash dropbear"
+IMAGE_INSTALL += "psplash dropbear hello"
 
 inherit core-image
 IMAGE_ROOTFS_SIZE ?= "8192"
